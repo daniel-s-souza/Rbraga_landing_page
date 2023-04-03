@@ -5,8 +5,9 @@ export default class index extends Component {
     return (
       <div>
         <a><p>Home</p></a>
+        <a><p>Conteudo</p></a>
+        <a><p>Para que é esse curso?</p></a>
         <a><p>Sobre</p></a>
-        <a><p>Inscreva-se</p></a>
       </div>
     )
   }
