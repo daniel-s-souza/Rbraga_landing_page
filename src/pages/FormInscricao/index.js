@@ -40,7 +40,7 @@ export default class Formulario extends Component {
   handleSubmit(event) {
     event.preventDefault();
 
-    console.log('Nome: ', this.state.nome);
+    console.log('Nome: ', this.state.name);
     console.log('Email: ', this.state.email);
   }
 
@@ -73,8 +73,8 @@ export default class Formulario extends Component {
                 onChange={this.handleInputChange}
               />
             </label>
-              {erroEmail && <p>Endereço de e-mail inválido.</p>}
               <button type="submit" disabled={!formularioValido}>Enviar</button>
+              {erroEmail && <p>Endereço de e-mail inválido.</p>}
               </>
             }
           </form>

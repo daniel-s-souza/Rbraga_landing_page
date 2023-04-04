@@ -5,6 +5,7 @@ import HomePage from './pages/homepage';
 import Content from './pages/conteudo/index';
 import Indication from './pages/indicacaoCurso/index'
 import FormInscricao from './pages/FormInscricao';
+import Footer from './components/Footer';
 
 export default class App extends Component {
   render() {
@@ -16,6 +17,7 @@ export default class App extends Component {
         <Indication />
         <Aboutpage />
         <FormInscricao />
+        <Footer />
       </>
     )
   }
