@@ -1,20 +1,30 @@
-import React, { Component } from 'react';
-import { Link, BrowserRouter} from 'react-router-dom';
-import AboutPage from "../../pages/AboutPage/index";
-import HomePage from "../../pages/homepage/index";
-import Conteudo from "../../pages/conteudo/index";
-import IndicacaoCurso from "../../pages/indicacaoCurso/index";
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React, { Component } from 'react'
 
 
-export default class index extends Component {
+
+
+export default class headerNavigation extends Component {
+
+  scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    window.scrollTo({
+      top: section.offsetTop,
+      behavior: 'smooth'
+    });
+  }
+
   render() {
     return (
-      <BrowserRouter>
-        <Link to={HomePage}>Home</Link>
-        <Link to={Conteudo}>O que vou estudar?</Link>
-        <Link to={IndicacaoCurso}>Para quem é esse curso?</Link>
-        <Link to={AboutPage}>Sobre</Link>
-      </BrowserRouter>
-    )
+      <div>
+        <nav>
+          <a onClick={() => this.scrollToSection('home')}>Home </a>
+          <a onClick={() => this.scrollToSection('conteudo')}>O que vou aprender</a>
+          <a onClick={() => this.scrollToSection('indicacaoCurso')}>Esse curso é para mim?</a>
+          <a onClick={() => this.scrollToSection('sobre')}>Sobre</a>
+        </nav>
+        
+      </div>
+    );
   }
 }

@@ -4,7 +4,7 @@ import img from '../../imgs/casal.jpg';
 export default class HomePage extends Component {
   render() {
     return (
-      <div className='imgBlock'>
+      <div id='home' className='imgBlock'>
         <img src={img} alt='casal estudando finanças' />
         <div className='textBlock'>
           <h3 className='h3Line'> Evento Online </h3>

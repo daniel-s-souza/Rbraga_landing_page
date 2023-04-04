@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 export default class index extends Component {
   render() {
     return (
-      <>
-      <section>
+      <div id='conteudo'>
+          <section>
       <div className='modulo1'>
         <p className='modulo'> Módulo I </p>
         <p className=''> Não confunda amor com finanças</p>
@@ -38,8 +38,8 @@ export default class index extends Component {
         <p>Saiba como controlar o orçamento familiar e considerar o dinheiro como instrumento de bem-estar, por meio de simulações de investimentos.</p>
       </div>
       </section> 
-    </>
-      
+
+      </div>
     )
   }
 }

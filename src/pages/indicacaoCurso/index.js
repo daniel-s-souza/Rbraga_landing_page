@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 export default class index extends Component {
   render() {
     return (
-      <>
-      <section className="titleSection">
+      <div id='indicacaoCurso'>
+        <section className="titleSection">
         <h2> Esse curso é para mim?</h2>
         <h2> Se você se identifica com os perfis abaixo, SIM </h2>
       </section>
@@ -26,7 +26,7 @@ export default class index extends Component {
           <li>Para pessoas que vivem com parceiros, com quem querem passar o resto da vida feliz e com dinheiro.</li>
         </ul>
       </div>
-      </>
+      </div>
     )
   }
 }
