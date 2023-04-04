@@ -18,7 +18,7 @@ export default class headerNavigation extends Component {
     return (
       <div>
         <nav>
-          <a onClick={() => this.scrollToSection('home')}>Home </a>
+          <a onClick={() => this.scrollToSection('home')}>Home</a>
           <a onClick={() => this.scrollToSection('conteudo')}>O que vou aprender</a>
           <a onClick={() => this.scrollToSection('indicacaoCurso')}>Esse curso é para mim?</a>
           <a onClick={() => this.scrollToSection('sobre')}>Sobre</a>
