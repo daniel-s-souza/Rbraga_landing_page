@@ -4,6 +4,7 @@ import Aboutpage from './pages/AboutPage';
 import HomePage from './pages/homepage';
 import Content from './pages/conteudo/index';
 import Indication from './pages/indicacaoCurso/index'
+import FormInscricao from './pages/FormInscricao';
 
 export default class App extends Component {
   render() {
@@ -14,6 +15,7 @@ export default class App extends Component {
         <Content />
         <Indication />
         <Aboutpage />
+        <FormInscricao />
       </>
     )
   }
