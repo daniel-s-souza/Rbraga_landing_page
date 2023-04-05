@@ -44,7 +44,7 @@ export default class SubscribeForm extends Component {
     const { showForm, name, email, errors } = this.state;
     return (
       <div className="SubscribeForm">
-        <button onClick={this.handleSubscribe}>Inscreva-se</button>
+        <button className="buttonForm" onClick={this.handleSubscribe}>Inscreva-se</button>
         {showForm && (
           <div className="overlay">
             <div className="form-box">

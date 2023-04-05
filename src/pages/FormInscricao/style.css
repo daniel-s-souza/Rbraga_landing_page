@@ -49,5 +49,7 @@
     position: relative;
     width: 40%;
     margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: bold;
   }
 }
