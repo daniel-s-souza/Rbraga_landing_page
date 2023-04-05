@@ -1,0 +1,53 @@
+@media screen and (max-width: 480px){
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .form-box {
+    background-color: whitesmoke;
+    position: relative;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    border-radius: 10px;
+    margin: auto;
+  }
+
+  .nameInput, .emailInput {
+    position: relative;
+    width: 70%;
+    margin-left: 5px;
+  }
+  
+  .nameLabel, .emailLabel {
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+
+  .input-group {
+    padding: 8px;
+  }
+
+  .titleForm {
+    text-align: center;
+    padding: 8px;
+  }
+
+  .buttonForm {
+    left: 115px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(231,77,77);
+    position: relative;
+    width: 40%;
+    margin-bottom: 15px;
+  }
+}
