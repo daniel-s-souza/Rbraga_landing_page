@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(32,35,40);
+  background-color: whitesmoke;
 }
 @media screen and (max-width: 480px){
   .imgBlock {
