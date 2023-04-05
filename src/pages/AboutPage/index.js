@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import img from '../../imgs/rb112.png'
+import './style.css';
 
 export default class ola extends Component {
   render() {

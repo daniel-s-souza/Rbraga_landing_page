@@ -1,12 +1,10 @@
 import React, { Component } from 'react'
-import img from '../../imgs/casal.jpg';
+import './style.css'
 
 export default class HomePage extends Component {
   render() {
     return (
       <div id='home' className='imgBlock'>
-        <img src={img} alt='casal estudando finanças' />
-        <div className='textBlock'>
           <h3 className='h3Line'> Evento Online </h3>
           <h1 className='h1Text'> 
               Na alegria e na tristeza
@@ -20,7 +18,6 @@ export default class HomePage extends Component {
           <h4 className='h4Line'>
             Lançamento: Dia 08 de abril de 2023 com Robson Braga 
           </h4>
-        </div>
       </div>
     )
   }

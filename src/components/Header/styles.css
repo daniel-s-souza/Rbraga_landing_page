@@ -5,11 +5,11 @@ a {
 @media screen and (max-width: 480px) {
   .navContent {
     align-items:flex-start;
-    background: linear-gradient(whitesmoke , transparent);
+    justify-content: flex-start;
+    background-color: whitesmoke;
     display: flex;
-    max-width: 100%;
+    width: 100vw;
     padding: 8px;
-    position: absolute;
   }
 
   .navLinks {

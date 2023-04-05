@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(32,35,40);
+}
+@media screen and (max-width: 480px){
+  .imgBlock {
+    background-image: url(../../imgs/casal.jpeg);
+    mask-image: linear-gradient(to top, transparent 5%, rgb(32,35,40) 100%);
+    -webkit-mask-image: linear-gradient(to top, transparent 5%, rgb(32,35,40) 100%);
+    position: relative;
+    bottom: 20px;
+  }
+
+  .h3Line {
+    text-align: center;
+    position: relative;
+    top: 25px;
+    color: red;
+  }
+}
