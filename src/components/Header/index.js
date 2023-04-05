@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from 'react'
-
+import './styles.css';
 
 
 
@@ -17,11 +17,11 @@ export default class headerNavigation extends Component {
   render() {
     return (
       <div>
-        <nav>
-          <a onClick={() => this.scrollToSection('home')}>Home</a>
-          <a onClick={() => this.scrollToSection('conteudo')}>O que vou aprender</a>
-          <a onClick={() => this.scrollToSection('indicacaoCurso')}>Esse curso é para mim?</a>
-          <a onClick={() => this.scrollToSection('sobre')}>Sobre</a>
+        <nav className='navContent'>
+          <a className='navLinks' onClick={() => this.scrollToSection('home')}>Home</a>
+          <a className='navLinks' onClick={() => this.scrollToSection('conteudo')}>O que vou aprender</a>
+          <a className='navLinks' onClick={() => this.scrollToSection('indicacaoCurso')}>Esse curso é para mim?</a>
+          <a className='navLinks' onClick={() => this.scrollToSection('sobre')}>Sobre</a>
         </nav>
         
       </div>
