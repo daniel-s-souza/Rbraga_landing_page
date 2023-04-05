@@ -1,0 +1,13 @@
+@media screen and (max-width: 480px){
+  .footer {
+    background-color: #dadadada;
+    width: 100vw;
+  }
+
+  .footerText {
+    text-align: center;
+    position: relative;
+    float: right;
+    padding: 20px;
+  }
+}
