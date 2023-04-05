@@ -1,0 +1,23 @@
+@media screen and (max-width: 480px){
+  .aboutImg {
+    height: 240px;
+    width: 240px;
+    position: relative;
+    float: right;
+    margin-right: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px black;
+  }
+
+  .aboutTitle {
+    padding: 8px;
+    font-size: 18px;
+  }
+
+  .aboutText {
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: start;
+    font-size: 15px;
+  }  
+}
